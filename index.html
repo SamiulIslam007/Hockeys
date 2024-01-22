@@ -27,6 +27,25 @@
         font-family: "Manrope", sans-serif;
       }
     </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            backgroundImage: (theme) => ({
+              programmeImg1:
+                "linear-gradient(  rgba(19, 19, 24, 0.50) ,rgba(19, 19, 24, 0.50)  ) ,url('./images/programme-img-1.png')",
+              programmeImg2:
+                "linear-gradient(  rgba(19, 19, 24, 0.50) ,rgba(19, 19, 24, 0.50)  ) ,url('./images/programme-img-2.png')",
+              programmeImg3:
+                "linear-gradient(  rgba(19, 19, 24, 0.50) ,rgba(19, 19, 24, 0.50)  ) ,url('./images/programme-img-3.png')",
+            }),
+          },
+        },
+      };
+    </script>
   </head>
   <body class="font-manrope px-4">
     <header></header>
@@ -34,8 +53,10 @@
       <!-- Professional hockeys club section -->
       <section class="mt-20">
         <div class="border-dashed border-y py-8 mb-12">
-          <div class="w-[60%] mx-auto">
-            <h1 class="text-center text-[#131318] font-extrabold text-4xl">
+          <div class="md:w-[60%] mx-auto">
+            <h1
+              class="text-center text-[#131318] font-extrabold text-2xl md:text-4xl"
+            >
               Professional Hockeys Club
             </h1>
             <p class="text-base text-[#13131899] font-medium text-center">
@@ -126,6 +147,324 @@
             <p class="text-base text-center text-[#13131899]">
               Amet consectetur. Condimentum dignissim adipiscing .
             </p>
+          </div>
+        </div>
+      </section>
+      <!-- Program Sections -->
+      <section class="mt-20">
+        <div class="border-dashed border-y py-8 mb-12">
+          <div class="md:w-[60%] mx-auto">
+            <h1
+              class="text-center text-[#131318] font-extrabold text-2xl md:text-4xl"
+            >
+              Professional Hockeys Club
+            </h1>
+            <p class="text-base text-[#13131899] font-medium text-center">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-col-1 lg:grid-cols-2 gap-6">
+          <!-- image 1 -->
+          <div
+            class="bg-programmeImg1 bg-center rounded-2xl px-9 py-6 lg:pb-10 md:h-[328px] bg-cover bg-no-repeat flex items-end"
+          >
+            <div class="space-y-5">
+              <h1 class="text-white font-extrabold text-3xl">Junior Program</h1>
+              <p class="text-base font-medium text-white">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="font-bold text-xl text-white bg-[#FF4240] py-3 px-6 rounded-lg"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+          <!-- image 2 -->
+          <div
+            class="bg-programmeImg2 bg-center rounded-2xl px-9 py-6 lg:pb-10 md:h-[328px] bg-cover bg-no-repeat flex items-end"
+          >
+            <div class="space-y-5">
+              <h1 class="text-white font-extrabold text-3xl">Junior Program</h1>
+              <p class="text-base font-medium text-white">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="font-bold text-xl text-white bg-[#FF4240] py-3 px-6 rounded-lg"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+          <!-- image 3 -->
+          <div
+            class="bg-programmeImg3 bg-center lg:col-span-2 rounded-2xl px-9 py-6 lg:pb-10 md:h-[440px] bg-cover bg-no-repeat flex items-end"
+          >
+            <div class="space-y-5">
+              <h1 class="text-white font-extrabold text-3xl">Junior Program</h1>
+              <p class="text-base font-medium text-white">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="font-bold text-xl text-white bg-[#FF4240] py-3 px-6 rounded-lg"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our products section  -->
+      <section class="mt-20">
+        <div class="border-dashed border-y py-8 mb-12">
+          <div class="md:w-[60%] mx-auto">
+            <h1
+              class="text-center text-[#131318] font-extrabold text-2xl md:text-4xl"
+            >
+              Our New Products
+            </h1>
+            <p class="text-base text-[#13131899] font-medium text-center">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- product1 -->
+          <div
+            class="card card-side items-center flex-col lg:flex-row gap-4 bg-base-100 border-[#1313181a] border p-6 shadow-xl"
+          >
+            <figure class="w-full lg:w-[80%] mx-auto">
+              <img src="./images/product1.png" alt="product1" />
+            </figure>
+            <div class="space-y-3 w-full">
+              <div class="flex justify-start items-center gap-3">
+                <div class="flex items-center gap-1">
+                  <img src="./images/star.png" alt="star" /><span>5.0</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/eye.png" alt="star" /><span>20</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/heart.png" alt="star" /><span>200</span>
+                </div>
+              </div>
+              <h3 class="text-[#131318] text-xl font-extrabold">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base font-medium text-[#131318]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex flex-col items-start lg:flex-row gap-1">
+                <div class="text-lg lg:text-base font-extrabold text-[#FF4240]">
+                  Price - $22.00
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="./images/cart-icon.svg" alt="cart-icon" /><span
+                    class="font-medium text-base text-[#13131880]"
+                    >Delivery Fee : Free</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product2 -->
+          <div
+            class="card card-side items-center flex-col lg:flex-row gap-4 bg-base-100 border-[#1313181a] border p-6 shadow-xl"
+          >
+            <figure class="w-full lg:w-[80%] mx-auto">
+              <img src="./images/product2.png" alt="product2" />
+            </figure>
+            <div class="space-y-3 w-full">
+              <div class="flex justify-start items-center gap-3">
+                <div class="flex items-center gap-1">
+                  <img src="./images/star.png" alt="star" /><span>5.0</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/eye.png" alt="star" /><span>20</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/heart.png" alt="star" /><span>200</span>
+                </div>
+              </div>
+              <h3 class="text-[#131318] text-xl font-extrabold">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base font-medium text-[#131318]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex flex-col items-start lg:flex-row gap-1">
+                <div class="text-lg lg:text-base font-extrabold text-[#FF4240]">
+                  Price - $22.00
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="./images/cart-icon.svg" alt="cart-icon" /><span
+                    class="font-medium text-base text-[#13131880]"
+                    >Delivery Fee : Free</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product3 -->
+          <div
+            class="card card-side items-center flex-col lg:flex-row gap-4 bg-base-100 border-[#1313181a] border p-6 shadow-xl"
+          >
+            <figure class="w-full lg:w-[80%] mx-auto">
+              <img src="./images/product3.png" alt="product3" />
+            </figure>
+            <div class="space-y-3 w-full">
+              <div class="flex justify-start items-center gap-3">
+                <div class="flex items-center gap-1">
+                  <img src="./images/star.png" alt="star" /><span>5.0</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/eye.png" alt="star" /><span>20</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/heart.png" alt="star" /><span>200</span>
+                </div>
+              </div>
+              <h3 class="text-[#131318] text-xl font-extrabold">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base font-medium text-[#131318]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex flex-col items-start lg:flex-row gap-1">
+                <div class="text-lg lg:text-base font-extrabold text-[#FF4240]">
+                  Price - $22.00
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="./images/cart-icon.svg" alt="cart-icon" /><span
+                    class="font-medium text-base text-[#13131880]"
+                    >Delivery Fee : Free</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product4 -->
+          <div
+            class="card card-side items-center flex-col lg:flex-row gap-4 bg-base-100 border-[#1313181a] border p-6 shadow-xl"
+          >
+            <figure class="w-full lg:w-[80%] mx-auto">
+              <img src="./images/product4.png" alt="product4" />
+            </figure>
+            <div class="space-y-3 w-full">
+              <div class="flex justify-start items-center gap-3">
+                <div class="flex items-center gap-1">
+                  <img src="./images/star.png" alt="star" /><span>5.0</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/eye.png" alt="star" /><span>20</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/heart.png" alt="star" /><span>200</span>
+                </div>
+              </div>
+              <h3 class="text-[#131318] text-xl font-extrabold">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base font-medium text-[#131318]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex flex-col items-start lg:flex-row gap-1">
+                <div class="text-lg lg:text-base font-extrabold text-[#FF4240]">
+                  Price - $22.00
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="./images/cart-icon.svg" alt="cart-icon" /><span
+                    class="font-medium text-base text-[#13131880]"
+                    >Delivery Fee : Free</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product5 -->
+          <div
+            class="card card-side items-center flex-col lg:flex-row gap-4 bg-base-100 border-[#1313181a] border p-6 shadow-xl"
+          >
+            <figure class="w-full lg:w-[80%] mx-auto">
+              <img src="./images/product5.png" alt="product5" />
+            </figure>
+            <div class="space-y-3 w-full">
+              <div class="flex justify-start items-center gap-3">
+                <div class="flex items-center gap-1">
+                  <img src="./images/star.png" alt="star" /><span>5.0</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/eye.png" alt="star" /><span>20</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/heart.png" alt="star" /><span>200</span>
+                </div>
+              </div>
+              <h3 class="text-[#131318] text-xl font-extrabold">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base font-medium text-[#131318]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex flex-col items-start lg:flex-row gap-1">
+                <div class="text-lg lg:text-base font-extrabold text-[#FF4240]">
+                  Price - $22.00
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="./images/cart-icon.svg" alt="cart-icon" /><span
+                    class="font-medium text-base text-[#13131880]"
+                    >Delivery Fee : Free</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product6 -->
+          <div
+            class="card card-side items-center flex-col lg:flex-row gap-4 bg-base-100 border-[#1313181a] border p-6 shadow-xl"
+          >
+            <figure class="w-full lg:w-[80%] mx-auto">
+              <img src="./images/product6.png" alt="product6" />
+            </figure>
+            <div class="space-y-3 w-full">
+              <div class="flex justify-start items-center gap-3">
+                <div class="flex items-center gap-1">
+                  <img src="./images/star.png" alt="star" /><span>5.0</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/eye.png" alt="star" /><span>20</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="./images/heart.png" alt="star" /><span>200</span>
+                </div>
+              </div>
+              <h3 class="text-[#131318] text-xl font-extrabold">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base font-medium text-[#131318]">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              </p>
+              <div class="flex flex-col items-start lg:flex-row gap-1">
+                <div class="text-lg lg:text-base font-extrabold text-[#FF4240]">
+                  Price - $22.00
+                </div>
+                <div class="flex items-center gap-2">
+                  <img src="./images/cart-icon.svg" alt="cart-icon" /><span
+                    class="font-medium text-base text-[#13131880]"
+                    >Delivery Fee : Free</span
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
