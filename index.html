@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hockey</title>
-    <!-- Tailwind, daisy ui , flowbite -->
+    <!-- Tailwind, daisy ui, flowbite -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
       rel="stylesheet"
@@ -15,8 +15,122 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
       rel="stylesheet"
     />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
   </head>
-  <body>
+  <body class="font-manrope px-4">
+    <header></header>
+    <main class="container mx-auto">
+      <!-- Professional hockeys club section -->
+      <section class="mt-20">
+        <div class="border-dashed border-y py-8 mb-12">
+          <div class="w-[60%] mx-auto">
+            <h1 class="text-center text-[#131318] font-extrabold text-4xl">
+              Professional Hockeys Club
+            </h1>
+            <p class="text-base text-[#13131899] font-medium text-center">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-4"
+        >
+          <!-- progress 1 -->
+          <div class="space-y-4">
+            <div class="text-center">
+              <div
+                class="radial-progress text-center rotate-[115deg]"
+                style="--value: 87; --size: 12rem; --thickness: 0.8rem"
+                role="progressbar"
+              ></div>
+              <span
+                class="text-[#131318] font-extrabold text-xl relative right-[7.5rem]"
+                >87%</span
+              >
+            </div>
+            <h2 class="text-[#131318] text-xl text-center font-semibold">
+              Prayer Facility
+            </h2>
+            <p class="text-base text-center text-[#13131899]">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- progress 2 -->
+          <div class="space-y-4">
+            <div class="text-center">
+              <div
+                class="radial-progress text-center rotate-[115deg]"
+                style="--value: 95; --size: 12rem; --thickness: 0.8rem"
+                role="progressbar"
+              ></div>
+              <span
+                class="text-[#131318] font-extrabold text-xl relative right-[7.5rem]"
+                >95%</span
+              >
+            </div>
+            <h2 class="text-[#131318] text-xl text-center font-semibold">
+              Experienced Coach
+            </h2>
+            <p class="text-base text-center text-[#13131899]">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- progress 3 -->
+          <div class="space-y-4">
+            <div class="text-center">
+              <div
+                class="radial-progress text-center rotate-[115deg]"
+                style="--value: 90; --size: 12rem; --thickness: 0.8rem"
+                role="progressbar"
+              ></div>
+              <span
+                class="text-[#131318] font-extrabold text-xl relative right-[7.5rem]"
+                >90%</span
+              >
+            </div>
+            <h2 class="text-[#131318] text-xl text-center font-semibold">
+              Senior Player
+            </h2>
+            <p class="text-base text-center text-[#13131899]">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- progress 4 -->
+          <div class="space-y-4">
+            <div class="text-center">
+              <div
+                class="radial-progress text-center rotate-[115deg]"
+                style="--value: 80; --size: 12rem; --thickness: 0.8rem"
+                role="progressbar"
+              ></div>
+              <span
+                class="text-[#131318] font-extrabold text-xl relative right-[7.5rem]"
+                >80%</span
+              >
+            </div>
+            <h2 class="text-[#131318] text-xl text-center font-semibold">
+              Training Ground
+            </h2>
+            <p class="text-base text-center text-[#13131899]">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
   </body>
 </html>
